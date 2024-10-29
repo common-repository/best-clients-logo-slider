@@ -1,0 +1,102 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+.row_1.column-3 li {
+      width: 32.5%!important;
+    height: auto;
+    padding: 32px!important;
+    margin: 8px .2% auto!important;
+    height: 182px!important;
+}
+.column-3 li {
+      width: 32.5%!important;
+    height: auto;
+    padding: 32px!important;
+    margin: 8px .2% auto!important;
+    height: 182px!important;
+}
+.client-post-list {
+    overflow: hidden;
+}
+.row_1.column-3 img{width:70%}
+.column-3 img{width:70%}
+.row_1.column-4 li {
+        width: 24.5%!important;
+    margin: 8px .2% auto!important;
+    height: 170px!important;
+}
+.column-4 li {
+        width: 24.5%!important;
+    margin: 8px .2% auto!important;
+    height: 170px!important;
+}
+.column-5 li {
+    width: 19.5%!important;
+  
+    margin: 8px .2% auto!important
+}
+.row_1.column-5 li {
+         width: 19.5%!important;
+ 
+    margin: 8px .2% auto!important
+}
+.column-6 li {
+    width: 15%!important;
+    margin: 3px 3px auto!important;
+}
+.row_1.column-6 li {
+    width: 15%!important;
+    margin: 3px 3px auto!important;
+}
+.single-post-item img {
+    height: 100%;
+    width: 100%;display:block;text-align:center;margin:0 auto
+}
+.single-post-item {
+    height: 132px!important;
+    overflow: hidden;
+    padding: 18px!important;
+    margin: 5px!important;
+}
+.item.single-post-item {
+    height: 105px!important;
+    padding: 5px!important;
+}
+
+
+/* Responsive Issue */
+
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+    
+}
+
+/* Small devices*/
+@media only screen and (max-width: 767px) {
+    .row_1.column-3 li, .column-3 li, .row_1.column-4 li, .column-4 li, .column-5 li, .row_1.column-5 li, .column-6 li, .row_1.column-6 li, .single-post-item {
+    width: 47%!important;
+    height: 113px!important;
+}
+ .item.single-post-item img {
+    width: 69%;
+}
+.item.single-post-item {
+    width: 94% !important;
+}   
+}
+/*wide mobile*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.row_1.column-3 li, .column-3 li, .row_1.column-4 li, .column-4 li, .column-5 li, .row_1.column-5 li, .column-6 li, .row_1.column-6 li, .single-post-item {
+    width: 28%!important;
+    height: 139px!important;
+}
+    .item.single-post-item img {
+    width: 69%;
+}
+.item.single-post-item {
+    width: 94% !important;
+}
+}
